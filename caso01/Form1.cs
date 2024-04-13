@@ -53,7 +53,7 @@ namespace caso01
                         textBox1.Clear();
                         textBox2.Clear();
                         this.Hide();
-                        Inicio Inicio = new Inicio();
+                        Inicio2 Inicio = new Inicio2();
                         Inicio.ShowDialog();
                     }
                     else
@@ -83,7 +83,7 @@ namespace caso01
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
