@@ -31,7 +31,7 @@ namespace caso01
 
         private void blockAccounts(int index)
         {
-            if (attempts[index] > 3)
+            if (attempts[index] >= 3)
             {
                 blockeds[index] = true;
                 MessageBox.Show("!!! Tu cuenta fue bloqueada !!!");
